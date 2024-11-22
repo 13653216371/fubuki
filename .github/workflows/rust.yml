@@ -94,7 +94,7 @@ jobs:
           features: ${{ matrix.features }}
         env:
           # (required)
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
           RUSTUP_TOOLCHAIN: nightly
           CARGO_TERM_COLOR: always
 
