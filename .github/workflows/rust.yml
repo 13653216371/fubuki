@@ -2,7 +2,10 @@ name: Release
 
 on:
   workflow_dispatch:
-
+   inputs:
+    tags:
+       description: '请写版本号，默认主分支main'
+       required: true
 jobs:
   create-release:
     runs-on: ubuntu-latest
