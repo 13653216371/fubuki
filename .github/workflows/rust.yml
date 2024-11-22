@@ -13,7 +13,7 @@ jobs:
       - uses: taiki-e/create-gh-release-action@v1
         env:
           # (required)
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.666TOKEN }}
 
   upload-assets:
     strategy:
